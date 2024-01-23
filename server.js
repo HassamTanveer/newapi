@@ -47,9 +47,9 @@ db.mongoose
   });
 
 // simple route
-app.get("/", (req, res) => {
-  res.json({ message: "Welcome to bezkoder application." });
-});
+// app.get("/", (req, res) => {
+//   res.json({ message: "Welcome to bezkoder application." });
+// });
 
 // routes
 require("./app/routes/auth.routes")(app);
